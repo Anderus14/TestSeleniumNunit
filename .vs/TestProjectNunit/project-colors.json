@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7421a210-83df-4bd3-8898-6a0710a21eff": {
+      "ProjectGuid": "7421a210-83df-4bd3-8898-6a0710a21eff",
+      "DisplayName": "TestProjectNunit",
+      "ColorIndex": 0
+    },
+    "9301feb8-71b5-4d96-83ba-4723b2e0440e": {
+      "ProjectGuid": "9301feb8-71b5-4d96-83ba-4723b2e0440e",
+      "DisplayName": "ClassLibrary1",
+      "ColorIndex": 1
+    },
+    "4dbd9550-7bbd-4c1d-a9b4-8c484044d95b": {
+      "ProjectGuid": "4dbd9550-7bbd-4c1d-a9b4-8c484044d95b",
+      "DisplayName": "PagesModel",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
