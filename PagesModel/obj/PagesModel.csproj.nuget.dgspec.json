@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj": {}
+    "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj": {
+    "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj",
+        "projectUniqueName": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj",
         "projectName": "PagesModel",
-        "projectPath": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj",
-        "packagesPath": "C:\\Users\\mmalolep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\obj\\",
+        "projectPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj",
+        "packagesPath": "C:\\Users\\zizig\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mmalolep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zizig\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

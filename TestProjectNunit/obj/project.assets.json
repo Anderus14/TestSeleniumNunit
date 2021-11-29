@@ -1304,19 +1304,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mmalolep\\.nuget\\packages\\": {}
+    "C:\\Users\\zizig\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\TestProjectNunit\\TestProjectNunit.csproj",
+      "projectUniqueName": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\TestProjectNunit\\TestProjectNunit.csproj",
       "projectName": "TestProjectNunit",
-      "projectPath": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\TestProjectNunit\\TestProjectNunit.csproj",
-      "packagesPath": "C:\\Users\\mmalolep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\TestProjectNunit\\obj\\",
+      "projectPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\TestProjectNunit\\TestProjectNunit.csproj",
+      "packagesPath": "C:\\Users\\zizig\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\TestProjectNunit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mmalolep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zizig\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1330,8 +1330,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj": {
-              "projectPath": "C:\\Users\\mmalolep\\source\\repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj"
+            "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj": {
+              "projectPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj"
             }
           }
         }
@@ -1382,7 +1382,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
