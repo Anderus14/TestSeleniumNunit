@@ -2,15 +2,20 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using PagesModel;
+using WebDriverManager;
+using WebDriverManager.DriverConfigs.Impl;
+using WebDriverManager.Helpers;
 
 namespace TestProjectNunit
 {
     public class Tests
     {
-        private readonly IWebDriver webDriver = new ChromeDriver();
+        private IWebDriver webDriver;
         [SetUp]
         public void Setup()
         {
+            new DriverManager().SetUpDriver(new ChromeConfig(), "Latest", Architecture.X64);
+            webDriver = new ChromeDriver();
             webDriver.Navigate().GoToUrl("https://example.testproject.io/");
             webDriver.Manage().Window.Maximize();
         }
