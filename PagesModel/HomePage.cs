@@ -16,16 +16,16 @@ namespace PagesModel
             this.webDriver = driver;
         }
 
-        public void Login()
+        public void Login(string NameInput, string PasswordInput)
         {
-            Name.SendKeys("Mateusz Małolepszy");
-            Password.SendKeys("12345");
+            Name.SendKeys(NameInput);
+            Password.SendKeys(PasswordInput);
             LoginButton.Click();
         }
 
-        public bool IsLoginSuccesful()
+        public bool IsLoginSuccesful(string DisplayNameLabel)
         {
-            return DisplayName.Text.Equals("Mateusz Małolepszy");
+            return DisplayName.Text.Equals(DisplayNameLabel);
         }
 
         public bool IsLogoutSuccesful()

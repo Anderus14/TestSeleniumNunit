@@ -22,19 +22,19 @@ namespace PagesModel
             this.webDriver = driver;
         }
 
-        public void FillDetails()
+        public void FillDetails(string Country, string Address, string Email, string Phone)
         {
             var selectCountry = new SelectElement(CountryDropdown);
-            selectCountry.SelectByText("Poland");
-            Address.SendKeys("Obornicka 115E/26");
-            Email.SendKeys("mateusz.malolepszy@gmail.com");
-            Phone.SendKeys("783757710");
+            selectCountry.SelectByText(Country);
+            this.Address.SendKeys(Address);
+            this.Email.SendKeys(Email);
+            this.Phone.SendKeys(Phone);
             SaveButton.Click();
         }
 
-        public bool AreDetailsSaved()
+        public bool AreDetailsSaved(string SavedLabel)
         {
-            return SavedLabel.Text.Equals("Saved");
+            return this.SavedLabel.Text.Equals(SavedLabel);
         }
 
         public void GoBackToHomePage()

@@ -20,10 +20,10 @@ namespace TestProjectNunit
         {
             HomePage homePage = new HomePage(webDriver);
             DetalisPage detalisPage = new DetalisPage(webDriver);
-            homePage.Login();
-            homePage.IsLoginSuccesful();
-            detalisPage.FillDetails();
-            detalisPage.AreDetailsSaved();
+            homePage.Login("Mateusz Małolepszy", "12345");
+            homePage.IsLoginSuccesful("Mateusz Małolepszy");
+            detalisPage.FillDetails("Poland","Obornicka 115E/26","mateusz.malolepszy@gmail.com","783757710");
+            detalisPage.AreDetailsSaved("Saved");
             detalisPage.GoBackToHomePage();
             homePage.IsLogoutSuccesful();
         }
