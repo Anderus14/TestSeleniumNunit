@@ -13,7 +13,7 @@
     <SourceRoot Include="C:\Users\zizig\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)nunit3testadapter\4.1.0\build\netcoreapp2.1\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\4.1.0\build\netcoreapp2.1\NUnit3TestAdapter.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter\4.2.1\build\netcoreapp2.1\NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter\4.2.1\build\netcoreapp2.1\NUnit3TestAdapter.props')" />
     <Import Project="$(NuGetPackageRoot)nunit\3.13.2\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\3.13.2\build\NUnit.props')" />
   </ImportGroup>
 </Project>

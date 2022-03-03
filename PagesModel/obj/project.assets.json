@@ -50,7 +50,7 @@
           "build/NUnit.props": {}
         }
       },
-      "NUnit3TestAdapter/4.1.0": {
+      "NUnit3TestAdapter/4.2.1": {
         "type": "package",
         "build": {
           "build/netcoreapp2.1/NUnit3TestAdapter.props": {}
@@ -283,10 +283,10 @@
         "nunit.nuspec"
       ]
     },
-    "NUnit3TestAdapter/4.1.0": {
-      "sha512": "v45RJt87pPAWlCDIftmtQhNK0mXd81IcnTE6SmWUmxi6YegCvkQogZQ/ROw4zyNyo2HI3Ckby3LB0GHF4bEIXg==",
+    "NUnit3TestAdapter/4.2.1": {
+      "sha512": "kgH8VKsrcZZgNGQXRpVCrM7TnNz9li3b/snH+YmnXUNqsaWa1Xw9EQWHpbzq4Li2FbTjTE/E5N5HdLNXzZ8BpQ==",
       "type": "package",
-      "path": "nunit3testadapter/4.1.0",
+      "path": "nunit3testadapter/4.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -304,7 +304,7 @@
         "build/netcoreapp2.1/nunit.engine.core.dll",
         "build/netcoreapp2.1/nunit.engine.dll",
         "build/netcoreapp2.1/testcentric.engine.metadata.dll",
-        "nunit3testadapter.4.1.0.nupkg.sha512",
+        "nunit3testadapter.4.2.1.nupkg.sha512",
         "nunit3testadapter.nuspec"
       ]
     },
@@ -350,7 +350,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "NUnit >= 3.13.2",
-      "NUnit3TestAdapter >= 4.1.0",
+      "NUnit3TestAdapter >= 4.2.1",
       "Selenium.Support >= 4.1.0",
       "Selenium.WebDriver >= 4.1.0"
     ]
@@ -361,21 +361,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj",
+      "projectUniqueName": "c:\\Users\\zizig\\Repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj",
       "projectName": "PagesModel",
-      "projectPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\PagesModel.csproj",
+      "projectPath": "c:\\Users\\zizig\\Repos\\TestSeleniumNunit\\PagesModel\\PagesModel.csproj",
       "packagesPath": "C:\\Users\\zizig\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zizig\\source\\repos\\TestProjectNunit\\PagesModel\\obj\\",
+      "outputPath": "c:\\Users\\zizig\\Repos\\TestSeleniumNunit\\PagesModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zizig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\zizig\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -400,7 +398,7 @@
           },
           "NUnit3TestAdapter": {
             "target": "Package",
-            "version": "[4.1.0, )"
+            "version": "[4.2.1, )"
           },
           "Selenium.Support": {
             "target": "Package",
@@ -426,7 +424,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

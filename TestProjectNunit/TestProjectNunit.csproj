@@ -1,17 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <IsPackable>false</IsPackable>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="NUnit" Version="3.13.2"/>
-    <PackageReference Include="NUnit3TestAdapter" Version="4.1.0"/>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0"/>
-    <PackageReference Include="Selenium.WebDriver" Version="4.1.0"/>
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="96.0.4664.4500"/>
-    <PackageReference Include="WebDriverManager" Version="2.12.2"/>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PagesModel\PagesModel.csproj"/>
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="NUnit" Version="3.13.2"/>
+		<PackageReference Include="NUnit3TestAdapter" Version="4.2.1"/>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0"/>
+		<PackageReference Include="Selenium.WebDriver" Version="4.1.0"/>
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="98.0.4758.10200"/>
+		<PackageReference Include="WebDriverManager" Version="2.12.3"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PagesModel\PagesModel.csproj"/>
+	</ItemGroup>
 </Project>
