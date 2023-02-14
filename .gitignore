@@ -11,8 +11,9 @@
 *.sln.docstates
 .vs/
 .vscode/
-bin/
-obj/
+**/bin/**
+**/obj/**
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
