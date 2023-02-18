@@ -3,7 +3,7 @@ using OpenQA.Selenium.Support.UI;
 
 namespace PagesModel
 {
-    public class DetalisPage
+    public class DetailsPage
     {
         private readonly IWebDriver webDriver;
         private IWebElement CountryDropdown => webDriver.FindElement(By.Id("country"));
@@ -14,7 +14,7 @@ namespace PagesModel
         private IWebElement SavedLabel => webDriver.FindElement(By.Id("saved"));
         private IWebElement LogoutButton => webDriver.FindElement(By.Id("logout"));
 
-        public DetalisPage(IWebDriver driver)
+        public DetailsPage(IWebDriver driver)
         {
             this.webDriver = driver;
         }
