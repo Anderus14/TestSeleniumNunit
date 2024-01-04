@@ -11,7 +11,7 @@ namespace TestProjectNunit
 	public class Tests
 	{
 		private TextInputPage textInputPage;
-
+		private DynamicIDPage dynamicIDPage;
 		private IWebDriver webDriver;
 
 		[SetUp]
@@ -21,9 +21,7 @@ namespace TestProjectNunit
 			//options.AddArguments("headless"); 
 			new DriverManager().SetUpDriver(new ChromeConfig(), "Latest", Architecture.X64);
 			webDriver = new ChromeDriver(options);
-			webDriver.Navigate().GoToUrl("http://uitestingplayground.com/textinput");
 			webDriver.Manage().Window.Maximize();
-			textInputPage = new TextInputPage(webDriver);
 		}
 
 		[TearDown]
@@ -36,10 +34,21 @@ namespace TestProjectNunit
 		[Test]
 		public void FirstTest()
 		{
+			webDriver.Navigate().GoToUrl("http://uitestingplayground.com/textinput");
+			textInputPage = new TextInputPage(webDriver);
 			Assert.That(textInputPage.Button.Text.Equals("Button That Should Change it's Name Based on Input Value"));
 			textInputPage.EnterTextIntoInput("dupa");
 			textInputPage.ClickButton();
 			Assert.That(textInputPage.Button.Text.Equals("dupa"));
+		}
+		
+		[Test]
+		public void SecondTest()
+		{
+			webDriver.Navigate().GoToUrl("http://uitestingplayground.com/dynamicid");
+			dynamicIDPage = new DynamicIDPage(webDriver);
+			dynamicIDPage.CheckMainLabelTextAndVisiblity("Dynamic ID");
+			dynamicIDPage.CheckDynamicIdButtonText("Button with Dynamic ID");
 		}
 	}
 }
